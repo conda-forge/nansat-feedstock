@@ -1,6 +1,6 @@
 {% set name = "nansat" %}
-{% set version = "0.6.17" %}
-{% set sha256 = "ecaa305250d3a34ad7d4922034bf33731ec0da127afa533cbb74728a69bab2dd" %}
+{% set version = "1.0.15" %}
+{% set sha256 = "4c3cabfa22df1bee1d8a33cad761eaea2cb7d8ccca298a1fed7b3b87f7350708" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - python
     - setuptools
     - toolchain
-    - pythesint
+    - pythesint 1.4.5
     - numpy 1.11.3
     - scipy 0.18.1
     - matplotlib 2.1.1
@@ -31,7 +31,7 @@ requirements:
     - pillow 5.0.0
   run:
     - python
-    - pythesint
+    - pythesint >=1.4.5
     - numpy >=1.11.3
     - scipy 0.18.1
     - matplotlib >=2.1.1
