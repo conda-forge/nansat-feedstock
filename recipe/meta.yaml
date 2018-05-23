@@ -1,6 +1,6 @@
 {% set name = "nansat" %}
-{% set version = "1.0.16" %}
-{% set sha256 = "83da86e16f69d188eb6e385c3fe2cb92016073765190460ef8464def7836d3ed" %}
+{% set version = "1.0.18" %}
+{% set sha256 = "a01fba2f8536ac1ac9a128fd2e51a92b7abcf5c81aa2898dde777a348e405f5f" %}
 
 package:
   name: {{ name|lower }}
