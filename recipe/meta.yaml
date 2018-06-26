@@ -1,6 +1,6 @@
 {% set name = "nansat" %}
-{% set version = "1.0.16" %}
-{% set sha256 = "83da86e16f69d188eb6e385c3fe2cb92016073765190460ef8464def7836d3ed" %}
+{% set version = "1.0.20" %}
+{% set sha256 = "9d43649461ca1946db5f2f350f5ac2c58de4781dfb30d35183df45530eb48b96" %}
 
 package:
   name: {{ name|lower }}
@@ -51,7 +51,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'Nansat is a scientist friendly Python toolbox for processing 2D satellite earth observation data.'
+  summary: 'Nansat is a scientist friendly Python toolbox for processing 2D satellite Earth observation data.'
 
   description: |
     The main goal of Nansat is to facilitate:
@@ -61,7 +61,11 @@ about:
     We appreciate acknowledments of Nansat.
     Please add "The image analysis was performed with the open-source
     Nansat (https://github.com/nansencenter/nansat) python package"
-    (or equivalent) if you use Nansat in scientific publications.
+    if you use Nansat in scientific publications. And refer to our publication:
+    Korosov A.A., Hansen M.W., Dagestad K.-F., Yamakawa A., Vines A., Riechert M.,
+    Nansat: a Scientist-Orientated Python Package for Geospatial Data Processing,
+    Journal of Open Research Software 4(1):e39, 2016
+    https://openresearchsoftware.metajnl.com/articles/10.5334/jors.120/
   doc_url: http://nansat.readthedocs.io/
   dev_url: https://github.com/nansencenter/nansat
 
