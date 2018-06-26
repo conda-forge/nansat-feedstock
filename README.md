@@ -7,7 +7,7 @@ Package license: GPL-3.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Nansat is a scientist friendly Python toolbox for processing 2D satellite earth observation data.
+Summary: Nansat is a scientist friendly Python toolbox for processing 2D satellite Earth observation data.
 
 The main goal of Nansat is to facilitate:
 easy development and testing of scientific algorithms,
@@ -16,7 +16,11 @@ efficient operational processing.
 We appreciate acknowledments of Nansat.
 Please add "The image analysis was performed with the open-source
 Nansat (https://github.com/nansencenter/nansat) python package"
-(or equivalent) if you use Nansat in scientific publications.
+if you use Nansat in scientific publications. And refer to our publication:
+Korosov A.A., Hansen M.W., Dagestad K.-F., Yamakawa A., Vines A., Riechert M.,
+Nansat: a Scientist-Orientated Python Package for Geospatial Data Processing,
+Journal of Open Research Software 4(1):e39, 2016
+https://openresearchsoftware.metajnl.com/articles/10.5334/jors.120/
 
 
 Current build status
