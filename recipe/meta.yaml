@@ -12,7 +12,7 @@ source:
  sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,8 +26,8 @@ requirements:
     - matplotlib 2.2.2
     - basemap 1.1.0
     - netcdf4 1.4.0
-    - gdal 2.2.4
-    - pillow 5.1.0
+    - gdal 2.3.1
+    - pillow 5.2.0
   run:
     - python
     - pythesint >=1.4.5
@@ -36,8 +36,8 @@ requirements:
     - matplotlib >=2.2.2
     - basemap >=1.1.0
     - netcdf4 >=1.4.0
-    - gdal >=2.2.4
-    - pillow >=5.1.0
+    - gdal >=2.3.1
+    - pillow >=5.2.0
 
 test:
   requires:
