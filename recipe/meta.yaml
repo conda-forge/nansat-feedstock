@@ -14,12 +14,13 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
+  skip: True # [py35]
 
 requirements:
   build:
+    - {{ compiler('cxx') }}
     - python
     - setuptools
-    - toolchain
     - pythesint 1.4.5
     - numpy 1.14.5
     - netcdf4 1.4.0
