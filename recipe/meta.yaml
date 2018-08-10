@@ -1,6 +1,6 @@
 {% set name = "nansat" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "f5e73fc6e22dc8cb921a0aa54710978961d3d161fcd5119d607fa9e04c2fd648" %}
+{% set version = "1.1.3" %}
+{% set sha256 = "ad678fc34694437305d78f886edcea339bb0320542324ee5f1a43889e07eeab5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
  sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -22,9 +22,6 @@ requirements:
     - toolchain
     - pythesint 1.4.5
     - numpy 1.14.5
-    - scipy 1.1.0
-    - matplotlib 2.2.2
-    - basemap 1.1.0
     - netcdf4 1.4.0
     - gdal 2.3.1
     - pillow 5.2.0
@@ -32,9 +29,6 @@ requirements:
     - python
     - pythesint >=1.4.5
     - numpy >=1.14.5
-    - scipy 1.1.0
-    - matplotlib >=2.2.2
-    - basemap >=1.1.0
     - netcdf4 >=1.4.0
     - gdal >=2.3.1
     - pillow >=5.2.0
