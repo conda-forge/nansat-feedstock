@@ -12,7 +12,7 @@ source:
  sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - pythesint 1.4.5
     - numpy 1.14.5
     - scipy 1.1.0
-    - matplotlib 2.2.2
+    - matplotlib-base 2.2.2
     - basemap 1.1.0
     - netcdf4 1.4.0
     - gdal 2.2.4
@@ -33,7 +33,7 @@ requirements:
     - pythesint >=1.4.5
     - numpy >=1.14.5
     - scipy 1.1.0
-    - matplotlib >=2.2.2
+    - matplotlib-base >=2.2.2
     - basemap >=1.1.0
     - netcdf4 >=1.4.0
     - gdal >=2.2.4
